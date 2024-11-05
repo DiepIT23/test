@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid rgb(34, 34, 34);
+    height: auto;
+}
+.sieu{
+ background-color: aqua;
+}
+header{
+    display: flex;
+    background-color: black;
+    height: 30px;
+    margin: 10px 0px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+.TONG{
+    display: flex;
+}
+.trai{
+    width: 75%;
+    height: 100%;
+}
+.bocuc{
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 5px 5px;
+}
+h5{
+    background: rgb(192, 191, 191);
+}
+.phai{
+    width: 25%;
+    height: 100%;
+}
+.login{
+    border: 1px solid rgb(157, 155, 155);
+    border-radius: 5px 5px;
+}
+h3{
+   background: rgb(198, 197, 197);
+}
+.box{
+    display: flex;
+    margin: 10px 20px;
+}
+.box .mot{
+    margin: auto;
+}
+.trong{
+    margin: 10px 93px;
+}
+.trong a{
+    margin: 10px 35px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+.hai{
+    margin: 50px 0px;
+    background-color: rgb(231, 226, 226);
+}
+.hai a{
+    text-decoration: none;
+    color: black;
+}
+.cuoi{
+    display: flex;
+}
+.cuoi p{
+    margin: auto;
+}
+footer{
+    width: 100%;
+    height: 370px;
+    display: flex;
+}
+footer .ft2{
+    margin: 30px 40px;
+}
+footer .ft2 p{
+    font-weight: 700;
+}
+footer h6{
+    color: white;
+}
+.input input{
+    width: 100%;
+    border: 0.5px solid black;
+    border-radius: 5px 5px;
+}
